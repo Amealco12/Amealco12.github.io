@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amealco - Menú</title>
+  <style>
+    /* Fondo degradado azul a verde */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #00c6ff, #7fffd4);
+      min-height: 100vh;
+      color: #333;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      color: #00ffea;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 0.5rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffffff;
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #ffffff;
+      transform: scale(1.1);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      color: #003366;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Inicio</div>
+      <div class="nav-links">
+        <a href="Amealco.html" target="_self"> Inicio</a>
+        <a href="Exhibicion.html" target="_self"">Exhibición de Fotos/Videos</a>
+        <a href="Historia.html" target="_self"">Historia del Pueblo Mágico</a>
+        <a href="mision-vision.html" target="_self">Misión, Visión y Valores</a>
+        <a href="Integrantes.html" target="_self">Integrantes del equipo</a>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <h2>Amealco de Bonfil, Pueblo Mágico</h2>
+     <center> <img src="im.JPEG"> </center>
+    <p>Amealco de Bonfil es un municipio ubicado en el estado de Querétaro, México. Se encuentra en el extremo sur del      estado y limita con San Juan del Río y     Huimilpan al norte, el Estado de México al este, y Michoacán al sur y      oeste. Su nombre proviene del náhuatl "Ameyalco" o "Amellayi", que significa "Lugar de     manantiales".</p>
+
+     <p>Este Pueblo Mágico es conocido por sus paisajes boscosos, cuerpos de agua y una rica tradición artesanal,            especialmente por las muñecas otomíes.       Además, cuenta con una altitud de aproximadamente 2,600 metros       sobre el         nivel del mar y un clima estable, cálido subhúmedo y húmedo, con una temperatura       media de       15°C2. </p>
+
+    <p>Amealco, un encantador Pueblo Mágico en el estado de Querétaro, es un destino que cautiva con su riqueza             cultural, historia y tradiciones      artesanales. Este pintoresco lugar es famoso por ser la cuna de la muñeca     Lele,        un ícono de la identidad otomí, y por sus paisajes naturales que invitan a      la aventura y el          descanso.</p>
+      <img src="ubicacion.JPG"> 
+    <p>Entre sus atractivos más destacados se encuentran su Centro Histórico, con calles empedradas y edificaciones         coloniales, la Parroquia de Santa María,      una joya arquitectónica del siglo XVIII, y el Museo de la Muñeca               Artesanal, donde se exhiben más de 300 muñecas representativas de diversas regiones      de México. Además,      los            visitantes pueden disfrutar de la gastronomía local, como el tradicional mole de guajolote, y      explorar espacios        naturales      como el Parque Recreativo Cerro de los Gallos, ideal para senderismo y      actividades al aire libre.</p>
+   <p>Amealco es un pueblo lleno de riquezas culturales que asu vez son elementos turísticos que enriquecen a mexico.    </p>
+   <left> <img src="muñeca.JPEG" height="50%" width="100%"> </left>
+  </section>
+ 
+</body>
+</html>
